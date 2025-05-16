@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -91,7 +99,53 @@ nav a{
     width: 40rem;
     height: 20.5rem;
 }
-
+/* curriculum section */
+.curriculum-container{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    margin-right: 8.75rem;
+    margin-left: 8.75rem;
+    margin-top: 5rem;
+}
+.curri-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.card{
+    width: 16.6rem;
+    height: 29.7rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* background-color: #DEF5FF; */
+    /* box-shadow: 0px 0px 1.7rem rgba(0, 0, 0, 0.05); */
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 1.1rem;
+}
+.card-subtitle{
+    margin-bottom: 2rem;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 97%;
+}
+.card-img{
+    margin-top: 3.25rem;
+}
+.first-card{
+    text-decoration: none;
+    color: #64C8FF;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 @media screen and (max-width:576px) {
     /* nav section */
