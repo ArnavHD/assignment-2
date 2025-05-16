@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav bar */
+nav{
+    margin: 1.25rem 8.75rem 1.25rem 8.75rem;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.school-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.display-flex{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+.nav-list{
+    gap: 2rem;
+}
+nav a{
+    text-decoration: none;
+}
+/* hamburgur */
+.hamburgur{
+    display: none;
+}
+/* Button */
+.btn{
+    padding: 0.625rem 3.75rem 0.625rem 3.75rem;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+
+@media screen and (max-width:576px) {
+    .list{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .school{
+        display: none;
+    }
+    .hamburgur{
+        display: flex;
+    }
+    nav{
+        margin: 0px;
+        padding: .75rem 1.25rem .75rem 1.25rem;
+        border-bottom: 2px solid #FEA301;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
