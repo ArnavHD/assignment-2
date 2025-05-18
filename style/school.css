@@ -203,6 +203,7 @@ nav a{
     height: 3.75rem;
     border: none;
     cursor: pointer;
+    margin-top: 5rem;
 }
 .fa-solid, .fa-angle-left{
     color: #FFFFFF;
@@ -212,6 +213,121 @@ nav a{
     color: #FFFFFF;
     font-size: 1.5rem;
 }
+/* Our story seciton */
+.our-story{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    height: auto;
+}
+.our-stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.1rem;
+    margin-left: 11.75rem;
+    margin-right: 11.75rem;
+    padding-bottom: 5rem;
+    padding-top: 12.3rem;
+}
+.story-btn{
+    margin-top: 3.75rem;
+    grid-column: span 3;
+    margin: 0px auto;
+}
+.btn-margin{
+    padding-bottom: 5rem;
+}
+
+.story-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.box-1{
+    width: 33.75rem;
+    height: 21rem;
+    grid-row: span 2;
+}
+.box-1-half{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2.39rem;
+    padding-right: 0px;
+    margin-top: -2.5rem;
+    background-color: #FFFFFF;
+    border-radius: 0rem 0rem 1rem 1rem;
+    /* width: calc(14.08rem - 2.39rem); */
+    height: 18rem;
+}
+.box-rest{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -4px;
+    padding-left: 2.36rem;
+    background-color: #FFFFFF;
+    border-radius: 0rem 0rem 1rem 1rem;
+    width: calc(18.18rem - 2.36rem);
+    height: 124px;
+    margin-top: -2.6rem;
+}
+.btn-prime{
+    padding: .625rem 1.1rem;
+    border-radius: 2.9rem;
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    /* margin-top: -27rem; */
+}
+.btn-big-pic .btn-big{
+    /* margin-left: 2.39rem; */
+    position: relative;
+    /* left: 15%; */
+    transform: translate(25%, -60%);
+    margin-bottom: 0px;
+}
+.big-pic-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 3.8rem;
+    padding-bottom: 3.23rem;
+}
+.big-pic-subtitle{
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 500;
+    width: 27.06rem;
+}
+.big-pic{
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.container .btn-small{
+    position: relative;
+    transform: translate(22%, -60%);
+    margin-bottom: 0px;
+}
+.small-pic-subtitle{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 2.68rem;
+}
+.pic{
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.hide{
+    display: none;
+}
+.story-btn{
+    display: grid;
+    grid-column: span 3;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
 @media screen and (max-width:576px) {
     /* nav section */
     .list{
@@ -328,4 +444,72 @@ nav a{
         font-size: .6rem;
         font-weight: 700;
     }
+    /* our story section */
+    .our-story{
+    background: url(../assets/bg.png),linear-gradient(180.00deg, rgba(255, 255, 255, 0),rgba(254, 163, 1, 0.3) 100%);
+}
+    .box-1{
+        display: none;
+    }
+    .story-title{
+        grid-column: span 2;
+    }
+    .our-stories{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .68rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .container{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .pic{
+        width: 100%;
+    }
+    .box-rest{
+        width: auto;
+    }
+    .small-pic-subtitle{
+        font-size: 0.56rem;
+        margin-left: -.7rem;
+        width: 7.9rem;
+    }
+    .btn-small{
+        width: auto;
+        font-size: 0.57rem;
+    }
+    .box-3{
+        display: grid;
+    }
+    .story-title{
+        margin-bottom: 1.3px;
+    }
+
+    .container .btn-small{
+    position: relative;
+    transform: translate(22%, -60%);
+    margin-bottom: 0px;
+    }
+    .container .btn-3{
+    position: relative;
+    transform: translate(22%, -75%);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+    .story-btn{
+        margin-top: 1.3rem;
+    }
+    .btn-margin{
+        padding-bottom: 2.5rem;
+}
+    .our-stories{
+        padding-bottom: 1.3rem;
+    }
+
+
 }
