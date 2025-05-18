@@ -244,6 +244,19 @@ nav a{
     cursor: pointer;
     margin-top: 5rem;
 }
+.btn-l{
+    transition: transform;
+}
+.btn-l:hover{
+    transform: translateX(-10px);
+}
+.btn-r{
+    transition: transform;
+}
+.btn-r:hover{
+    transform: translateX(10px);
+}
+
 .fa-solid, .fa-angle-left{
     color: #FFFFFF;
     font-size: 1.5rem;
